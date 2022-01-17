@@ -22,7 +22,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/recursos/fondomaderablanca.png);
+    background-image: url(../recursos/fondomaderablanca.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ ul{
     box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
 }
 .contenedor__tarjeta-top{
-    background-image: url(/recursos/imagenarriba.jpg);
+    background-image: url(../recursos/imagenarriba.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -99,7 +99,7 @@ ul{
     color: rgb(68, 68, 68);
 }
 .contenedor__tarjeta-bottom{
-    background-image: url(/recursos/imagenabajo.jpg);
+    background-image: url(../recursos/imagenabajo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
