@@ -47,7 +47,7 @@ ul{
 /* ____________division en 3 ____________ */
 
 .contenedor__tarjeta-top{
-    background-image: url(../recursos/imagenarriba.jpg);
+    background-image: url(../recursos/imagenarriba.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,7 +200,8 @@ ul{
 }
 
 .postit3{
-    transform: rotate(12deg);
+    transform: rotate(10deg);
+    margin-top: 10px;
 }
 .asdf{
     color: rgb(121, 121, 121);
