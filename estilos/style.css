@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    /* outline: 1px solid #f00 !important; */
+    /* background-color: rgb(233, 177, 177); */
+}
+
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    padding-left: 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/recursos/img/fondomaderablanca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.contenedor__tarjeta{
+    width: 291px;
+    height: 512px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: 2px solid rgba(255, 255, 255, 0.734);
+    outline-offset: -10px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
+}
+.contenedor__tarjeta-top{
+    background-image: url(/recursos/img/imagenarriba.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+}
+.contenedor__tarjeta-mid{
+    color: rgb(46, 42, 42);
+    height: 35%;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+.contenedor__tarjeta-mid-nombres{
+    font-family: 'Dancing Script';
+    font-size: 28px;
+    height: 39px;
+}
+.contenedor__tarjeta-mid-fecha{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+.contenedor__tarjeta-mid-primerlugar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor__tarjeta-mid-primerlugar-hora{
+    font-family: 'Oswald', sans-serif;
+    width: 60px;
+    border-right: 2px solid rgba(255, 255, 255, 0.734);
+    font-size: 8px;
+    text-align: right;
+    padding-right: 3px;
+}
+.contenedor__tarjeta-mid-primerlugar-lugar{
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    font-size: 7px;
+    text-align: left;
+    padding-left: 3px;
+}
+.contenedor__tarjeta-mid-texto{
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    padding: 5px 20px 0px 20px;
+    font-size: 9px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+.contenedor__tarjeta-bottom{
+    background-image: url(/recursos/img/imagenabajo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25%;
+}
+.contenedor__tarjeta-mid-linea{
+    color: white;
+    font-weight: 800;
+    height: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.734);
+    width: 55px;
+}
+.superior{
+    padding-top: 15px;
+}
+.contenedor__tarjeta-mid-links{
+    display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.contenedor__tarjeta-mid-links-mapa{
+    padding: 0px 5px;
+}
+.contenedor__tarjeta-mid-links a img{
+    height: 17px;
+}
+
+.postit{
+    /* background-color: rgb(255, 255, 153); */
+    background-color: rgb(208, 240, 192);
+    padding: 8px;
+    /* background-color: rgba(255, 255, 255); */
+    height: 100px;
+    width: 120px;
+    transform: rotate(-7deg);
+    /* margin: 20px 0px 30px 60px; */
+    margin: 20px 0px 20px 0px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 10px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
+}
+
+.postit span{
+    font-size: 7px;
+
+}
