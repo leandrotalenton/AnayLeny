@@ -27,7 +27,8 @@ ul{
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 25px;
     flex-direction: column;
 }
 
@@ -42,23 +43,37 @@ ul{
     outline-offset: -10px;
     box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
 }
+
+/* ____________division en 3 ____________ */
+
 .contenedor__tarjeta-top{
     background-image: url(../recursos/imagenarriba.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 40%;
+    height: 35%;
 }
 .contenedor__tarjeta-mid{
     color: rgb(46, 42, 42);
-    height: 35%;
-    position: relative;
-    overflow: visible;
+    height: 40%;
+    /* position: relative; */
+    /* overflow: visible; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 0px 20px;
 }
+.contenedor__tarjeta-bottom{
+    background-image: url(../recursos/imagenabajo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25%;
+}
+
+/* ____________formatos del mid ____________ */
+
 .contenedor__tarjeta-mid-nombres{
     font-family: 'Dancing Script';
     font-size: 28px;
@@ -92,28 +107,26 @@ ul{
 }
 .contenedor__tarjeta-mid-texto{
     font-family: 'Bitter', serif;
-    font-weight: 600;
-    padding: 5px 20px 0px 20px;
+    font-weight: 500;
+    padding: 5px 20px 5px 20px;
     font-size: 9px;
     text-align: center;
     color: rgb(68, 68, 68);
 }
-.contenedor__tarjeta-bottom{
-    background-image: url(../recursos/imagenabajo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 25%;
-}
+
 .contenedor__tarjeta-mid-linea{
     color: white;
     font-weight: 800;
     height: 10px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.734);
     width: 55px;
 }
 .superior{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.734);
     padding-top: 15px;
+}
+.inferior{
+    border-top: 2px solid rgba(255, 255, 255, 0.734);
+    padding-bottom: 15px;
 }
 .contenedor__tarjeta-mid-links{
     display: flex;
@@ -122,9 +135,17 @@ ul{
 }
 .contenedor__tarjeta-mid-links-mapa{
     padding: 0px 5px;
+    width: 30px;
+}
+.contenedor__tarjeta-mid-links-mapa a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .contenedor__tarjeta-mid-links a img{
     height: 12px;
+    width: 12px;
 }
 
 .postits{
@@ -137,52 +158,29 @@ ul{
     background-color: rgb(255, 255, 255);
     padding: 8px;
     /* background-color: rgba(255, 255, 255); */
-    height: 100px;
+    height: 110px;
     width: 120px;
     transform: rotate(-7deg);
     /* margin: 20px 0px 30px 60px; */
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 10px 0px;
     font-family: 'Gochi Hand', cursive;
-    font-size: 10px;
-    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
-}
-
-.postit2{
-    /* background-color: rgb(255, 255, 153); */
-    /* background-color: #ffb092; */
-    background-color: rgb(255, 255, 255);
-    padding: 8px;
-    /* background-color: rgba(255, 255, 255); */
-    height: 100px;
-    width: 120px;
-    transform: rotate(-4deg);
-    /* margin: 20px 0px 30px 60px; */
-    margin: 20px 0px 20px 15px;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 10px;
-    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
-}
-
-.postit3{
-    /* background-color: rgb(255, 255, 153); */
-    /* background-color: #ffb092; */
-    background-color: rgb(255, 255, 255);
-    padding: 8px;
-    /* background-color: rgba(255, 255, 255); */
-    height: 100px;
-    width: 120px;
-    transform: rotate(-4deg);
-    /* margin: 20px 0px 30px 60px; */
-    margin: 5px 0px 2px 15px;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 10px;
+    font-size: 9px;
     box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.22);
 }
 
 .postit span{
     font-size: 7px;
 }
+
+.postit1{
+    transform: rotate(-3deg);
+}
+.postit3{
+    transform: rotate(12deg);
+}
 .asdf{
-    font-size: 8px;
+    color: rgb(121, 121, 121);
+    font-size: 6px;
     font-family: 'Bitter', serif;
+    text-decoration: none;
 }
