@@ -92,7 +92,7 @@ ul{
 
 .contenedor__tarjeta-mid-primerlugar-hora{
     font-family: 'Oswald', sans-serif;
-    width: 60px;
+    width: 28px;
     border-right: 2px solid rgba(255, 255, 255, 0.734);
     font-size: 8px;
     text-align: right;
@@ -100,8 +100,8 @@ ul{
 }
 .contenedor__tarjeta-mid-primerlugar-lugar{
     font-family: 'Oswald', sans-serif;
-    width: 150px;
-    font-size: 7px;
+    width: 175px;
+    font-size: 9px;
     text-align: left;
     padding-left: 3px;
 }
@@ -109,7 +109,7 @@ ul{
     font-family: 'Bitter', serif;
     font-weight: 500;
     padding: 5px 20px 5px 20px;
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
     color: rgb(68, 68, 68);
 }
@@ -175,6 +175,16 @@ ul{
 .postit1{
     transform: rotate(-3deg);
 }
+
+.postit2{
+    display: flex;
+    flex-direction: column;
+}
+.postit2 a img{
+    height: 20px;
+    margin: 10px 40px;
+}
+
 .postit3{
     transform: rotate(12deg);
 }
